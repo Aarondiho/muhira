@@ -4,12 +4,12 @@
     "slug": "muhira",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/g.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/g.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "transparent"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,11 +21,28 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.naaron003.muhira"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/rent.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends.",
+          "CameraPermission":"Allow your $(PRODUCT_NAME) to access your Camera."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8df36a68-3472-4aec-9490-77b941cb9869"
+      }
     }
-    
   }
 }
