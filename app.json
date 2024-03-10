@@ -1,13 +1,13 @@
 {
   "expo": {
     "name": "Muhira",
-    "slug": "Muhira",
+    "slug": "muhira",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/g.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/g.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ericmugisha0036.Muhira"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6196602c-ff18-4da2-9c62-dea71ae06e5f"
+      }
+    },
+    "owner": "ericmugisha0036"
   }
 }
